@@ -19,7 +19,7 @@ def fibb():
     
 def vowel():
     phrase = input()
-    lib = ['a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u','a','e','i','o','u']
+    lib = ['a','e','i','o','u']
     for i in range(0,len(phrase)):
         for x in phrase:
             if x == lib[i]:
