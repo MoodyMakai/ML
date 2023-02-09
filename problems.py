@@ -68,7 +68,50 @@ def alph():
     for x in phrase:
         bet[x]=bet.get(x,0)+1
     print(bet)
-            
+    
+def st():
+    phrase = input()
+    x = phrase.split()
+    z=''
+    print(x)
+    for i in range(0,len(x)):
+        z += x[i]
+        z += " "
+    print(z)
+
+def yed(n):
+    for x in n:
+        while (x%2) == 0:
+            yield(x)
+
+def lic(n):
+    posList = [x>=0 for x in n]
+    print(posList)
+
+def sq(n):
+    nums = [i*i for i in n]
+    print(nums)
+    
+def strang(n):
+        newList = [x for x in n if "@" in x]
+        print(newList)
+
+def cDic(n):
+    newDic = {x:x**2 for x in n}
+    print(newDic)
+
+def div(n):
+    for x in range(1, int(n/2)+1):
+        if n % x==0:
+            yield(x)
+
+def let(n):
+    newList = [x for x in n if 'a' in x[0]]
+    print(newList)
+    
+
+    
+
             
 
 
