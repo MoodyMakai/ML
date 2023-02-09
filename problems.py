@@ -108,7 +108,13 @@ def div(n):
 def let(n):
     newList = [x for x in n if 'a' in x[0]]
     print(newList)
-
+    
+def dot():
+    import numpy 
+    a = int(input())
+    b = int(input())
+    print(numpy.dot(a,b))
+    
 def pali(n):
     newList = [x for x in n if x[::-1] in n]
     print(newList)
