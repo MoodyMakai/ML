@@ -108,7 +108,15 @@ def div(n):
 def let(n):
     newList = [x for x in n if 'a' in x[0]]
     print(newList)
-    
+
+def pali(n):
+    newList = [x for x in n if x[::-1] in n]
+    print(newList)
+
+def tDic(n):
+    dic = {x:True for x in n if (x%2)==0}
+    print(dic)
+
 
     
 
