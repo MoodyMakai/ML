@@ -77,5 +77,3 @@ for i in range(len(Y)):
     pLabel = Z[i] - 1 
     confusion[tLabel][pLabel] += 1
 print(confusion)
-#for x, val in enumerate(pSpecies):
-  #confusion[val[x]]+=1
